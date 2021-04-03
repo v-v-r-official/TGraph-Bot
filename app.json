@@ -1,0 +1,32 @@
+{
+  "name": "Telegraph bot",
+  "description": "A bot to upload telegraph",
+  "repository": "https://github.com/Jijinr/TGraph-Bot",
+  "logo": "https://telegra.ph/file/b57c89e0b2d2f06f8aa4e.jpg",
+  "keywords": ["telegram", "telegraph", "telegram bot"],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your API_ID from https://my.telegram.org/apps ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your API_HASH from https://my.telegram.org/apps",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ],
+  "formation": {
+      "worker": {
+          "quantity": 1,
+          "size": "free"
+      }
+  }
+} 
