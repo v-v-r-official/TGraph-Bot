@@ -11,7 +11,7 @@ class Translation(object):
 /help - <b>How To Use Me</b>
 /about - <b>More About Me</b>"""
     ABOUT_TEXT = """**➥ My Name** : ```Telegraph Bot```
-**➥ Creator** : <a href=https://t.me/D_ar_k_Angel>Dark Angel</a>
+**➥ Creator** : <a href=https://t.me/VKPROJECTS>VK PROJECTS</a>
 **➥ Credits** : ```Everyone in this journey```
 **➥ Language** : ```Python3```
 **➥ Library** : <a href=https://docs.pyrogram.org>Pyrogram asyncio 0.18.0</a>
