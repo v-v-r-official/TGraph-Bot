@@ -33,7 +33,7 @@ async def start(bot, update):
 async def help_user(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/VK0_BOTS'),
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/VKP_BOTS'),
         InlineKeyboardButton('Update Channel 📜', url='https://t.me/VKPROJECTS')
         ],[
         InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
